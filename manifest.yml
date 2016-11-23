@@ -1,0 +1,9 @@
+---
+applications:
+- name: aplikasi-lab
+  memory: 512M
+  instances: 1
+  host: aplikasi-lab-${random-word}
+  path: target/aplikasi-lab-0.0.1-SNAPSHOT.jar
+
+
